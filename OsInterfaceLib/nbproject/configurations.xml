@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="inc" displayName="inc" projectFiles="true">
+        <itemPath>inc/CBaseBlock.h</itemPath>
+        <itemPath>inc/CBaseCommPort.h</itemPath>
+        <itemPath>inc/CBaseController.h</itemPath>
+        <itemPath>inc/CBaseDownloader.h</itemPath>
+        <itemPath>inc/CBaseHandler.h</itemPath>
+        <itemPath>inc/CBasePort.h</itemPath>
+        <itemPath>inc/CBaseSocketClient.h</itemPath>
+        <itemPath>inc/CBaseSocketServer.h</itemPath>
+        <itemPath>inc/CBaseSpiPort.h</itemPath>
+        <itemPath>inc/CCircularBuffer.h</itemPath>
+        <itemPath>inc/CControlLogger.h</itemPath>
+        <itemPath>inc/CDefaultDevice.h</itemPath>
+        <itemPath>inc/CDefaultHardware.h</itemPath>
+        <itemPath>inc/CDefaultLogger.h</itemPath>
+        <itemPath>inc/CFileDownloader.h</itemPath>
+        <itemPath>inc/CGenericDevice.h</itemPath>
+        <itemPath>inc/CGenericHardware.h</itemPath>
+        <itemPath>inc/CGenericMessage.h</itemPath>
+        <itemPath>inc/CGenericMessageManager.h</itemPath>
+        <itemPath>inc/CGenericSoftware.h</itemPath>
+        <itemPath>inc/CGenericTestPort.h</itemPath>
+        <itemPath>inc/CGenericTime.h</itemPath>
+        <itemPath>inc/CLinuxCommPort.h</itemPath>
+        <itemPath>inc/CLinuxCurrentTime.h</itemPath>
+        <itemPath>inc/CLinuxFile.h</itemPath>
+        <itemPath>inc/CLinuxHardware.h</itemPath>
+        <itemPath>inc/CLinuxPort.h</itemPath>
+        <itemPath>inc/CLinuxSocketClient.h</itemPath>
+        <itemPath>inc/CLinuxSocketServer.h</itemPath>
+        <itemPath>inc/CLinuxSoftware.h</itemPath>
+        <itemPath>inc/CLinuxSpiPort.h</itemPath>
+        <itemPath>inc/CLinuxZeroTime.h</itemPath>
+        <itemPath>inc/CMapToPointer.h</itemPath>
+        <itemPath>inc/CMessageManager.h</itemPath>
+        <itemPath>inc/CProtocol.h</itemPath>
+        <itemPath>inc/CRawData.h</itemPath>
+        <itemPath>inc/CTestSpiPort.h</itemPath>
+        <itemPath>inc/CVxWorkCommPort.h</itemPath>
+        <itemPath>inc/CVxWorkHardware.h</itemPath>
+        <itemPath>inc/CVxWorkSoftware.h</itemPath>
+        <itemPath>inc/CVxWorkSpiPort.h</itemPath>
+        <itemPath>inc/CWindowsCommPort.h</itemPath>
+        <itemPath>inc/CWindowsCurrentTime.h</itemPath>
+        <itemPath>inc/CWindowsFile.h</itemPath>
+        <itemPath>inc/CWindowsHardware.h</itemPath>
+        <itemPath>inc/CWindowsPort.h</itemPath>
+        <itemPath>inc/CWindowsSocketClient.h</itemPath>
+        <itemPath>inc/CWindowsSocketServer.h</itemPath>
+        <itemPath>inc/CWindowsSoftware.h</itemPath>
+        <itemPath>inc/CWindowsSpiPort.h</itemPath>
+        <itemPath>inc/CWindowsZeroTime.h</itemPath>
+        <itemPath>inc/IBlock.h</itemPath>
+        <itemPath>inc/ICommPort.h</itemPath>
+        <itemPath>inc/IController.h</itemPath>
+        <itemPath>inc/IDevice.h</itemPath>
+        <itemPath>inc/IDownload.h</itemPath>
+        <itemPath>inc/IFile.h</itemPath>
+        <itemPath>inc/IHandler.h</itemPath>
+        <itemPath>inc/IHardware.h</itemPath>
+        <itemPath>inc/ILogger.h</itemPath>
+        <itemPath>inc/IMapToPointer.h</itemPath>
+        <itemPath>inc/IMessage.h</itemPath>
+        <itemPath>inc/IMessageFactory.h</itemPath>
+        <itemPath>inc/IMessageManager.h</itemPath>
+        <itemPath>inc/IPort.h</itemPath>
+        <itemPath>inc/IProtocol.h</itemPath>
+        <itemPath>inc/IRawData.h</itemPath>
+        <itemPath>inc/ISocketClient.h</itemPath>
+        <itemPath>inc/ISocketServer.h</itemPath>
+        <itemPath>inc/ISoftware.h</itemPath>
+        <itemPath>inc/ISpiPort.h</itemPath>
+        <itemPath>inc/ITime.h</itemPath>
+        <itemPath>inc/hardware_configure.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <itemPath>src/CBaseBlock.cpp</itemPath>
+        <itemPath>src/CControlLogger.cpp</itemPath>
+        <itemPath>src/CDefaultDevice.cpp</itemPath>
+        <itemPath>src/CDefaultHardware.cpp</itemPath>
+        <itemPath>src/CDefaultLogger.cpp</itemPath>
+        <itemPath>src/CFileDownloader.cpp</itemPath>
+        <itemPath>src/CGenericDevice.cpp</itemPath>
+        <itemPath>src/CGenericHardware.cpp</itemPath>
+        <itemPath>src/CGenericMessage.cpp</itemPath>
+        <itemPath>src/CGenericMessageManager.cpp</itemPath>
+        <itemPath>src/CGenericSoftware.cpp</itemPath>
+        <itemPath>src/CGenericTestPort.cpp</itemPath>
+        <itemPath>src/CGenericTime.cpp</itemPath>
+        <itemPath>src/CLinuxCommPort.cpp</itemPath>
+        <itemPath>src/CLinuxCurrentTime.cpp</itemPath>
+        <itemPath>src/CLinuxFile.cpp</itemPath>
+        <itemPath>src/CLinuxHardware.cpp</itemPath>
+        <itemPath>src/CLinuxPort.cpp</itemPath>
+        <itemPath>src/CLinuxSocketClient.cpp</itemPath>
+        <itemPath>src/CLinuxSocketServer.cpp</itemPath>
+        <itemPath>src/CLinuxSoftware.cpp</itemPath>
+        <itemPath>src/CLinuxSpiPort.cpp</itemPath>
+        <itemPath>src/CLinuxZeroTime.cpp</itemPath>
+        <itemPath>src/CMapToPointer.cpp</itemPath>
+        <itemPath>src/CMessageManager.cpp</itemPath>
+        <itemPath>src/CProtocol.cpp</itemPath>
+        <itemPath>src/CRawData.cpp</itemPath>
+        <itemPath>src/CVxWorkCommPort.cpp</itemPath>
+        <itemPath>src/CVxWorkHardware.cpp</itemPath>
+        <itemPath>src/CVxWorkSoftware.cpp</itemPath>
+        <itemPath>src/CVxWorkSpiPort.cpp</itemPath>
+        <itemPath>src/CVxWorkThread.cpp</itemPath>
+        <itemPath>src/CWindowsCommPort.cpp</itemPath>
+        <itemPath>src/CWindowsCurrentTime.cpp</itemPath>
+        <itemPath>src/CWindowsFile.cpp</itemPath>
+        <itemPath>src/CWindowsHardware.cpp</itemPath>
+        <itemPath>src/CWindowsPort.cpp</itemPath>
+        <itemPath>src/CWindowsSocketClient.cpp</itemPath>
+        <itemPath>src/CWindowsSocketServer.cpp</itemPath>
+        <itemPath>src/CWindowsSoftware.cpp</itemPath>
+        <itemPath>src/CWindowsSpiPort.cpp</itemPath>
+        <itemPath>src/CWindowsZeroTime.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+      <logicalFolder name="f3"
+                     displayName="CFileDownloaderTest"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/filedownloadertest.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2"
+                     displayName="CTestProtocol"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/TestProtocolclass.cpp</itemPath>
+        <itemPath>tests/TestProtocolclass.h</itemPath>
+        <itemPath>tests/newtestrunner.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1"
+                     displayName="Test Server / Client  Socket Class for Linux"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/CLinuxServerSocketTest.cpp</itemPath>
+        <itemPath>tests/CLinuxServerSocketTest.h</itemPath>
+        <itemPath>tests/testrunnerserversocket.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>inc</Elem>
+    <Elem>src</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <preprocessorList>
+            <Elem>ENABLE_TEST</Elem>
+            <Elem>USE_LINUX</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <preprocessorList>
+            <Elem>ENABLE_TEST</Elem>
+            <Elem>USE_LINUX</Elem>
+          </preprocessorList>
+        </ccTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <folder path="TestFiles">
+        <ccTool>
+          <incDir>
+            <pElem>inc</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </cTool>
+        <ccTool>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+          <linkerLibItems>
+            <linkerOptionItem>`cppunit-config --libs`</linkerOptionItem>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f2">
+        <cTool>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>inc</pElem>
+          </incDir>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f2</output>
+          <linkerLibItems>
+            <linkerOptionItem>`cppunit-config --libs`</linkerOptionItem>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f3">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f3</output>
+          <linkerLibItems>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </folder>
+      <item path="inc/CBaseBlock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CBaseCommPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CBaseController.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CBaseDownloader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CBaseHandler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CBasePort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CBaseSocketClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CBaseSocketServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CBaseSpiPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CCircularBuffer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CControlLogger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CDefaultDevice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CDefaultHardware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CDefaultLogger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CFileDownloader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CGenericDevice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CGenericHardware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CGenericMessage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CGenericMessageManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CGenericSoftware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CGenericTestPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CGenericTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CLinuxCommPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CLinuxCurrentTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CLinuxFile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CLinuxHardware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CLinuxPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CLinuxSocketClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CLinuxSocketServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CLinuxSoftware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CLinuxSpiPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CLinuxZeroTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CMapToPointer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CMessageManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CProtocol.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CRawData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CTestSpiPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CVxWorkCommPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CVxWorkHardware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CVxWorkSoftware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CVxWorkSpiPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CWindowsCommPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CWindowsCurrentTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CWindowsFile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CWindowsHardware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CWindowsPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CWindowsSocketClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CWindowsSocketServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CWindowsSoftware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CWindowsSpiPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CWindowsZeroTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IBlock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/ICommPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IController.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IDevice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IDownload.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IFile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IHandler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IHardware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/ILogger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IMapToPointer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IMessage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IMessageFactory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IMessageManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IProtocol.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IRawData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/ISocketClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/ISocketServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/ISoftware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/ISpiPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/ITime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/hardware_configure.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/CBaseBlock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CControlLogger.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CDefaultDevice.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CDefaultHardware.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CDefaultLogger.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CFileDownloader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CGenericDevice.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CGenericHardware.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CGenericMessage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CGenericMessageManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CGenericSoftware.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CGenericTestPort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CGenericTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLinuxCommPort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLinuxCurrentTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLinuxFile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLinuxHardware.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLinuxPort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLinuxSocketClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLinuxSocketServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLinuxSoftware.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLinuxSpiPort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLinuxZeroTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CMapToPointer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CMessageManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CProtocol.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CRawData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CVxWorkCommPort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CVxWorkHardware.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CVxWorkSoftware.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CVxWorkSpiPort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CVxWorkThread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CWindowsCommPort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CWindowsCurrentTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CWindowsFile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CWindowsHardware.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CWindowsPort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CWindowsSocketClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CWindowsSocketServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CWindowsSoftware.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CWindowsSpiPort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CWindowsZeroTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/CLinuxServerSocketTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/CLinuxServerSocketTest.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tests/TestProtocolclass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/TestProtocolclass.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tests/filedownloadertest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/newtestrunner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/testrunnerserversocket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <preprocessorList>
+            <Elem>ENABLE_TEST</Elem>
+            <Elem>USE_LINUX</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <preprocessorList>
+            <Elem>ENABLE_TEST</Elem>
+            <Elem>USE_LINUX</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <folder path="TestFiles">
+        <ccTool>
+          <incDir>
+            <pElem>inc</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </cTool>
+        <ccTool>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+          <linkerLibItems>
+            <linkerOptionItem>`cppunit-config --libs`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f2">
+        <cTool>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </cTool>
+        <ccTool>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f2</output>
+          <linkerLibItems>
+            <linkerOptionItem>`cppunit-config --libs`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f3">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f3</output>
+        </linkerTool>
+      </folder>
+      <item path="inc/CBaseBlock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CBaseCommPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CBaseController.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CBaseDownloader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CBaseHandler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CBasePort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CBaseSocketClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CBaseSocketServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CBaseSpiPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CCircularBuffer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CControlLogger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CDefaultDevice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CDefaultHardware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CDefaultLogger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CFileDownloader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CGenericDevice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CGenericHardware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CGenericMessage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CGenericMessageManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CGenericSoftware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CGenericTestPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CGenericTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CLinuxCommPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CLinuxCurrentTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CLinuxFile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CLinuxHardware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CLinuxPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CLinuxSocketClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CLinuxSocketServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CLinuxSoftware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CLinuxSpiPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CLinuxZeroTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CMapToPointer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CMessageManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CProtocol.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CRawData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CTestSpiPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CVxWorkCommPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CVxWorkHardware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CVxWorkSoftware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CVxWorkSpiPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CWindowsCommPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CWindowsCurrentTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CWindowsFile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CWindowsHardware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CWindowsPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CWindowsSocketClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CWindowsSocketServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CWindowsSoftware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CWindowsSpiPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/CWindowsZeroTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IBlock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/ICommPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IController.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IDevice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IDownload.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IFile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IHandler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IHardware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/ILogger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IMapToPointer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IMessage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IMessageFactory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IMessageManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IProtocol.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/IRawData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/ISocketClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/ISocketServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/ISoftware.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/ISpiPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/ITime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/hardware_configure.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/CBaseBlock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CControlLogger.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CDefaultDevice.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CDefaultHardware.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CDefaultLogger.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CFileDownloader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CGenericDevice.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CGenericHardware.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CGenericMessage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CGenericMessageManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CGenericSoftware.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CGenericTestPort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CGenericTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLinuxCommPort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLinuxCurrentTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLinuxFile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLinuxHardware.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLinuxPort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLinuxSocketClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLinuxSocketServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLinuxSoftware.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLinuxSpiPort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CLinuxZeroTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CMapToPointer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CMessageManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CProtocol.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CRawData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CVxWorkCommPort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CVxWorkHardware.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CVxWorkSoftware.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CVxWorkSpiPort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CVxWorkThread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CWindowsCommPort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CWindowsCurrentTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CWindowsFile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CWindowsHardware.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CWindowsPort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CWindowsSocketClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CWindowsSocketServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CWindowsSoftware.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CWindowsSpiPort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CWindowsZeroTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/CLinuxServerSocketTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/CLinuxServerSocketTest.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tests/TestProtocolclass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/TestProtocolclass.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tests/filedownloadertest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/newtestrunner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/testrunnerserversocket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

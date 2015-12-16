@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\CAes256.h" />
+    <ClInclude Include="..\inc\CBaseBlock.h" />
+    <ClInclude Include="..\inc\CBaseCommPort.h" />
+    <ClInclude Include="..\inc\CBaseController.h" />
+    <ClInclude Include="..\inc\CBaseCryptoProto.h" />
+    <ClInclude Include="..\inc\CBaseCypher.h" />
+    <ClInclude Include="..\inc\CBaseDownloader.h" />
+    <ClInclude Include="..\inc\CBaseHandler.h" />
+    <ClInclude Include="..\inc\CBasePort.h" />
+    <ClInclude Include="..\inc\CBaseSocketClient.h" />
+    <ClInclude Include="..\inc\CBaseSocketServer.h" />
+    <ClInclude Include="..\inc\CBaseSpiPort.h" />
+    <ClInclude Include="..\inc\CCircularBuffer.h" />
+    <ClInclude Include="..\inc\CControlLogger.h" />
+    <ClInclude Include="..\inc\CCryptoProto.h" />
+    <ClInclude Include="..\inc\CCurrentTime.h" />
+    <ClInclude Include="..\inc\CDefaultDevice.h" />
+    <ClInclude Include="..\inc\CDefaultHardware.h" />
+    <ClInclude Include="..\inc\CDefaultLogger.h" />
+    <ClInclude Include="..\inc\CFile.h" />
+    <ClInclude Include="..\inc\CFileDownloader.h" />
+    <ClInclude Include="..\inc\CGenericDevice.h" />
+    <ClInclude Include="..\inc\CGenericHardware.h" />
+    <ClInclude Include="..\inc\CGenericMessage.h" />
+    <ClInclude Include="..\inc\CGenericMessageManager.h" />
+    <ClInclude Include="..\inc\CGenericSoftware.h" />
+    <ClInclude Include="..\inc\CGenericTestPort.h" />
+    <ClInclude Include="..\inc\CGenericTime.h" />
+    <ClInclude Include="..\inc\CHardware.h" />
+    <ClInclude Include="..\inc\CLinuxCommPort.h" />
+    <ClInclude Include="..\inc\CLinuxSoftware.h" />
+    <ClInclude Include="..\inc\CMapToPointer.h" />
+    <ClInclude Include="..\inc\CMessageManager.h" />
+    <ClInclude Include="..\inc\CPort.h" />
+    <ClInclude Include="..\inc\CProtocol.h" />
+    <ClInclude Include="..\inc\CRawData.h" />
+    <ClInclude Include="..\inc\CSocketClient.h" />
+    <ClInclude Include="..\inc\CSocketServer.h" />
+    <ClInclude Include="..\inc\CSpiPort.h" />
+    <ClInclude Include="..\inc\CTestSpiPort.h" />
+    <ClInclude Include="..\inc\CVxWorkCommPort.h" />
+    <ClInclude Include="..\inc\CVxWorkSoftware.h" />
+    <ClInclude Include="..\inc\CWindowsCommPort.h" />
+    <ClInclude Include="..\inc\CWindowsSoftware.h" />
+    <ClInclude Include="..\inc\CZeroTime.h" />
+    <ClInclude Include="..\inc\debug.h" />
+    <ClInclude Include="..\inc\hardware_configure.h" />
+    <ClInclude Include="..\inc\IBlock.h" />
+    <ClInclude Include="..\inc\ICommPort.h" />
+    <ClInclude Include="..\inc\IController.h" />
+    <ClInclude Include="..\inc\ICryptoProto.h" />
+    <ClInclude Include="..\inc\ICypher.h" />
+    <ClInclude Include="..\inc\IDevice.h" />
+    <ClInclude Include="..\inc\IDownload.h" />
+    <ClInclude Include="..\inc\IFile.h" />
+    <ClInclude Include="..\inc\IHandler.h" />
+    <ClInclude Include="..\inc\IHardware.h" />
+    <ClInclude Include="..\inc\ILogger.h" />
+    <ClInclude Include="..\inc\IMapToPointer.h" />
+    <ClInclude Include="..\inc\IMessage.h" />
+    <ClInclude Include="..\inc\IMessageFactory.h" />
+    <ClInclude Include="..\inc\IMessageManager.h" />
+    <ClInclude Include="..\inc\IPort.h" />
+    <ClInclude Include="..\inc\IProtocol.h" />
+    <ClInclude Include="..\inc\IRawData.h" />
+    <ClInclude Include="..\inc\ISocketClient.h" />
+    <ClInclude Include="..\inc\ISocketServer.h" />
+    <ClInclude Include="..\inc\ISoftware.h" />
+    <ClInclude Include="..\inc\ISpiPort.h" />
+    <ClInclude Include="..\inc\ITime.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\CAes256.cpp" />
+    <ClCompile Include="..\src\CBaseBlock.cpp" />
+    <ClCompile Include="..\src\CControlLogger.cpp" />
+    <ClCompile Include="..\src\CCryptoProto.cpp" />
+    <ClCompile Include="..\src\CDefaultDevice.cpp" />
+    <ClCompile Include="..\src\CDefaultHardware.cpp" />
+    <ClCompile Include="..\src\CDefaultLogger.cpp" />
+    <ClCompile Include="..\src\CFileDownloader.cpp" />
+    <ClCompile Include="..\src\CGenericDevice.cpp" />
+    <ClCompile Include="..\src\CGenericHardware.cpp" />
+    <ClCompile Include="..\src\CGenericMessage.cpp" />
+    <ClCompile Include="..\src\CGenericMessageManager.cpp" />
+    <ClCompile Include="..\src\CGenericSoftware.cpp" />
+    <ClCompile Include="..\src\CGenericTestPort.cpp" />
+    <ClCompile Include="..\src\CGenericTime.cpp" />
+    <ClCompile Include="..\src\CLinuxCommPort.cpp" />
+    <ClCompile Include="..\src\CLinuxCurrentTime.cpp" />
+    <ClCompile Include="..\src\CLinuxFile.cpp" />
+    <ClCompile Include="..\src\CLinuxHardware.cpp" />
+    <ClCompile Include="..\src\CLinuxPort.cpp" />
+    <ClCompile Include="..\src\CLinuxSocketClient.cpp" />
+    <ClCompile Include="..\src\CLinuxSocketServer.cpp" />
+    <ClCompile Include="..\src\CLinuxSoftware.cpp" />
+    <ClCompile Include="..\src\CLinuxSpiPort.cpp" />
+    <ClCompile Include="..\src\CLinuxZeroTime.cpp" />
+    <ClCompile Include="..\src\CMapToPointer.cpp" />
+    <ClCompile Include="..\src\CMessageManager.cpp" />
+    <ClCompile Include="..\src\CProtocol.cpp" />
+    <ClCompile Include="..\src\CRawData.cpp" />
+    <ClCompile Include="..\src\CVxWorkCommPort.cpp" />
+    <ClCompile Include="..\src\CVxWorkHardware.cpp" />
+    <ClCompile Include="..\src\CVxWorkSoftware.cpp" />
+    <ClCompile Include="..\src\CVxWorkSpiPort.cpp" />
+    <ClCompile Include="..\src\CVxWorkThread.cpp" />
+    <ClCompile Include="..\src\CWindowsCommPort.cpp" />
+    <ClCompile Include="..\src\CWindowsCurrentTime.cpp" />
+    <ClCompile Include="..\src\CWindowsFile.cpp" />
+    <ClCompile Include="..\src\CWindowsHardware.cpp" />
+    <ClCompile Include="..\src\CWindowsPort.cpp" />
+    <ClCompile Include="..\src\CWindowsSocketClient.cpp" />
+    <ClCompile Include="..\src\CWindowsSocketServer.cpp" />
+    <ClCompile Include="..\src\CWindowsSoftware.cpp" />
+    <ClCompile Include="..\src\CWindowsSpiPort.cpp" />
+    <ClCompile Include="..\src\CWindowsZeroTime.cpp" />
+    <ClCompile Include="..\src\debug.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="copyinclude.bat" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>OSinterface</ProjectName>
+    <ProjectGuid>{F312CFCC-9CD0-49A9-B1A7-982D96436679}</ProjectGuid>
+    <RootNamespace>msvc</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)dist\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)build\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)dist\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)build\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;USE_WINDOWS;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>$(ProjectDir)copyinclude.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;USE_WINDOWS;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>$(ProjectDir)copyinclude.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

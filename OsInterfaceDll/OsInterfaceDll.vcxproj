@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\OsInterface\inc\CAes256.h" />
+    <ClInclude Include="..\OsInterface\inc\CBaseBlock.h" />
+    <ClInclude Include="..\OsInterface\inc\CBaseCommPort.h" />
+    <ClInclude Include="..\OsInterface\inc\CBaseController.h" />
+    <ClInclude Include="..\OsInterface\inc\CBaseCryptoProto.h" />
+    <ClInclude Include="..\OsInterface\inc\CBaseCypher.h" />
+    <ClInclude Include="..\OsInterface\inc\CBaseDownloader.h" />
+    <ClInclude Include="..\OsInterface\inc\CBaseHandler.h" />
+    <ClInclude Include="..\OsInterface\inc\CBasePort.h" />
+    <ClInclude Include="..\OsInterface\inc\CBaseSocketClient.h" />
+    <ClInclude Include="..\OsInterface\inc\CBaseSocketServer.h" />
+    <ClInclude Include="..\OsInterface\inc\CBaseSpiPort.h" />
+    <ClInclude Include="..\OsInterface\inc\CCircularBuffer.h" />
+    <ClInclude Include="..\OsInterface\inc\CControlLogger.h" />
+    <ClInclude Include="..\OsInterface\inc\CCryptoProto.h" />
+    <ClInclude Include="..\OsInterface\inc\CCurrentTime.h" />
+    <ClInclude Include="..\OsInterface\inc\CDefaultDevice.h" />
+    <ClInclude Include="..\OsInterface\inc\CDefaultHardware.h" />
+    <ClInclude Include="..\OsInterface\inc\CDefaultLogger.h" />
+    <ClInclude Include="..\OsInterface\inc\CFile.h" />
+    <ClInclude Include="..\OsInterface\inc\CFileDownloader.h" />
+    <ClInclude Include="..\OsInterface\inc\CGenericDevice.h" />
+    <ClInclude Include="..\OsInterface\inc\CGenericHardware.h" />
+    <ClInclude Include="..\OsInterface\inc\CGenericMessage.h" />
+    <ClInclude Include="..\OsInterface\inc\CGenericMessageManager.h" />
+    <ClInclude Include="..\OsInterface\inc\CGenericSoftware.h" />
+    <ClInclude Include="..\OsInterface\inc\CGenericTestPort.h" />
+    <ClInclude Include="..\OsInterface\inc\CGenericTime.h" />
+    <ClInclude Include="..\OsInterface\inc\CHardware.h" />
+    <ClInclude Include="..\OsInterface\inc\CLinuxCommPort.h" />
+    <ClInclude Include="..\OsInterface\inc\CLinuxSoftware.h" />
+    <ClInclude Include="..\OsInterface\inc\CMapToPointer.h" />
+    <ClInclude Include="..\OsInterface\inc\CMessageManager.h" />
+    <ClInclude Include="..\OsInterface\inc\CPort.h" />
+    <ClInclude Include="..\OsInterface\inc\CProtocol.h" />
+    <ClInclude Include="..\OsInterface\inc\CRawData.h" />
+    <ClInclude Include="..\OsInterface\inc\CSocketClient.h" />
+    <ClInclude Include="..\OsInterface\inc\CSocketServer.h" />
+    <ClInclude Include="..\OsInterface\inc\CSpiPort.h" />
+    <ClInclude Include="..\OsInterface\inc\CTestSpiPort.h" />
+    <ClInclude Include="..\OsInterface\inc\CVxWorkCommPort.h" />
+    <ClInclude Include="..\OsInterface\inc\CVxWorkSoftware.h" />
+    <ClInclude Include="..\OsInterface\inc\CWindowsCommPort.h" />
+    <ClInclude Include="..\OsInterface\inc\CWindowsSoftware.h" />
+    <ClInclude Include="..\OsInterface\inc\CZeroTime.h" />
+    <ClInclude Include="..\OsInterface\inc\debug.h" />
+    <ClInclude Include="..\OsInterface\inc\hardware_configure.h" />
+    <ClInclude Include="..\OsInterface\inc\IBlock.h" />
+    <ClInclude Include="..\OsInterface\inc\ICommPort.h" />
+    <ClInclude Include="..\OsInterface\inc\IController.h" />
+    <ClInclude Include="..\OsInterface\inc\ICryptoProto.h" />
+    <ClInclude Include="..\OsInterface\inc\ICypher.h" />
+    <ClInclude Include="..\OsInterface\inc\IDevice.h" />
+    <ClInclude Include="..\OsInterface\inc\IDownload.h" />
+    <ClInclude Include="..\OsInterface\inc\IFile.h" />
+    <ClInclude Include="..\OsInterface\inc\IHandler.h" />
+    <ClInclude Include="..\OsInterface\inc\IHardware.h" />
+    <ClInclude Include="..\OsInterface\inc\ILogger.h" />
+    <ClInclude Include="..\OsInterface\inc\IMapToPointer.h" />
+    <ClInclude Include="..\OsInterface\inc\IMessage.h" />
+    <ClInclude Include="..\OsInterface\inc\IMessageFactory.h" />
+    <ClInclude Include="..\OsInterface\inc\IMessageManager.h" />
+    <ClInclude Include="..\OsInterface\inc\IPort.h" />
+    <ClInclude Include="..\OsInterface\inc\IProtocol.h" />
+    <ClInclude Include="..\OsInterface\inc\IRawData.h" />
+    <ClInclude Include="..\OsInterface\inc\ISocketClient.h" />
+    <ClInclude Include="..\OsInterface\inc\ISocketServer.h" />
+    <ClInclude Include="..\OsInterface\inc\ISoftware.h" />
+    <ClInclude Include="..\OsInterface\inc\ISpiPort.h" />
+    <ClInclude Include="..\OsInterface\inc\ITime.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\OsInterface\src\CAes256.cpp" />
+    <ClCompile Include="..\OsInterface\src\CBaseBlock.cpp" />
+    <ClCompile Include="..\OsInterface\src\CControlLogger.cpp" />
+    <ClCompile Include="..\OsInterface\src\CCryptoProto.cpp" />
+    <ClCompile Include="..\OsInterface\src\CDefaultDevice.cpp" />
+    <ClCompile Include="..\OsInterface\src\CDefaultHardware.cpp" />
+    <ClCompile Include="..\OsInterface\src\CDefaultLogger.cpp" />
+    <ClCompile Include="..\OsInterface\src\CFileDownloader.cpp" />
+    <ClCompile Include="..\OsInterface\src\CGenericDevice.cpp" />
+    <ClCompile Include="..\OsInterface\src\CGenericHardware.cpp" />
+    <ClCompile Include="..\OsInterface\src\CGenericMessage.cpp" />
+    <ClCompile Include="..\OsInterface\src\CGenericMessageManager.cpp" />
+    <ClCompile Include="..\OsInterface\src\CGenericSoftware.cpp" />
+    <ClCompile Include="..\OsInterface\src\CGenericTestPort.cpp" />
+    <ClCompile Include="..\OsInterface\src\CGenericTime.cpp" />
+    <ClCompile Include="..\OsInterface\src\CLinuxCommPort.cpp" />
+    <ClCompile Include="..\OsInterface\src\CLinuxCurrentTime.cpp" />
+    <ClCompile Include="..\OsInterface\src\CLinuxFile.cpp" />
+    <ClCompile Include="..\OsInterface\src\CLinuxHardware.cpp" />
+    <ClCompile Include="..\OsInterface\src\CLinuxPort.cpp" />
+    <ClCompile Include="..\OsInterface\src\CLinuxSocketClient.cpp" />
+    <ClCompile Include="..\OsInterface\src\CLinuxSocketServer.cpp" />
+    <ClCompile Include="..\OsInterface\src\CLinuxSoftware.cpp" />
+    <ClCompile Include="..\OsInterface\src\CLinuxSpiPort.cpp" />
+    <ClCompile Include="..\OsInterface\src\CLinuxZeroTime.cpp" />
+    <ClCompile Include="..\OsInterface\src\CMapToPointer.cpp" />
+    <ClCompile Include="..\OsInterface\src\CMessageManager.cpp" />
+    <ClCompile Include="..\OsInterface\src\CProtocol.cpp" />
+    <ClCompile Include="..\OsInterface\src\CRawData.cpp" />
+    <ClCompile Include="..\OsInterface\src\CVxWorkCommPort.cpp" />
+    <ClCompile Include="..\OsInterface\src\CVxWorkHardware.cpp" />
+    <ClCompile Include="..\OsInterface\src\CVxWorkSoftware.cpp" />
+    <ClCompile Include="..\OsInterface\src\CVxWorkSpiPort.cpp" />
+    <ClCompile Include="..\OsInterface\src\CVxWorkThread.cpp" />
+    <ClCompile Include="..\OsInterface\src\CWindowsCommPort.cpp" />
+    <ClCompile Include="..\OsInterface\src\CWindowsCurrentTime.cpp" />
+    <ClCompile Include="..\OsInterface\src\CWindowsFile.cpp" />
+    <ClCompile Include="..\OsInterface\src\CWindowsHardware.cpp" />
+    <ClCompile Include="..\OsInterface\src\CWindowsPort.cpp" />
+    <ClCompile Include="..\OsInterface\src\CWindowsSocketClient.cpp" />
+    <ClCompile Include="..\OsInterface\src\CWindowsSocketServer.cpp" />
+    <ClCompile Include="..\OsInterface\src\CWindowsSoftware.cpp" />
+    <ClCompile Include="..\OsInterface\src\CWindowsSpiPort.cpp" />
+    <ClCompile Include="..\OsInterface\src\CWindowsZeroTime.cpp" />
+    <ClCompile Include="..\OsInterface\src\debug.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A9C95020-76BA-44F5-86F3-34F7872D51D2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>OsInterfaceDll</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)dist\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)build\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)dist\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)build\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;USE_WINDOWS;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;USE_WINDOWS;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

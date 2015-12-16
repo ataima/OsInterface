@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\CAes256.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CBaseBlock.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CBaseCommPort.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CBaseController.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CBaseCryptoProto.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CBaseCypher.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CBaseDownloader.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CBaseHandler.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CBasePort.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CBaseSocketClient.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CBaseSocketServer.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CBaseSpiPort.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CCircularBuffer.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CControlLogger.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CCryptoProto.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CCurrentTime.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CDefaultDevice.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CDefaultHardware.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CDefaultLogger.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CFile.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CFileDownloader.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CGenericDevice.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CGenericHardware.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CGenericMessage.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CGenericMessageManager.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CGenericSoftware.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CGenericTestPort.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CGenericTime.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CHardware.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CLinuxCommPort.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CLinuxSoftware.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CMapToPointer.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CMessageManager.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CPort.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CProtocol.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CRawData.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CSocketClient.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CSocketServer.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CSpiPort.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CTestSpiPort.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CVxWorkCommPort.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CVxWorkSoftware.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CWindowsCommPort.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CWindowsSoftware.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CZeroTime.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\hardware_configure.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IBlock.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\ICommPort.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IController.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\ICryptoProto.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\ICypher.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IDevice.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IDownload.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IFile.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IHandler.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IHardware.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\ILogger.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IMapToPointer.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IMessage.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IMessageFactory.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IMessageManager.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IPort.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IProtocol.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IRawData.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\ISocketClient.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\ISocketServer.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\ISoftware.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\ISpiPort.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\ITime.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\debug.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\CAes256.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CBaseBlock.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CControlLogger.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CCryptoProto.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CDefaultDevice.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CDefaultHardware.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CDefaultLogger.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CFileDownloader.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CGenericDevice.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CGenericHardware.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CGenericMessage.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CGenericMessageManager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CGenericSoftware.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CGenericTestPort.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CGenericTime.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CLinuxCommPort.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CLinuxCurrentTime.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CLinuxFile.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CLinuxHardware.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CLinuxPort.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CLinuxSocketClient.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CLinuxSocketServer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CLinuxSoftware.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CLinuxSpiPort.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CLinuxZeroTime.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CMapToPointer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CMessageManager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CProtocol.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CRawData.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CVxWorkCommPort.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CVxWorkHardware.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CVxWorkSoftware.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CVxWorkSpiPort.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CVxWorkThread.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CWindowsCommPort.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CWindowsCurrentTime.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CWindowsFile.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CWindowsHardware.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CWindowsPort.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CWindowsSocketClient.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CWindowsSocketServer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CWindowsSoftware.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CWindowsSpiPort.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CWindowsZeroTime.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\debug.c">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="copyinclude.bat" />
+  </ItemGroup>
+</Project>
